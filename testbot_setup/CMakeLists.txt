@@ -12,7 +12,7 @@ find_package(ament_cmake_python REQUIRED)
 ament_python_install_package(${PROJECT_NAME})
 
 install(PROGRAMS
-  #scripts/py_node.py
+  scripts/testbot_setup.sh
   DESTINATION lib/${PROJECT_NAME}
 )
 
