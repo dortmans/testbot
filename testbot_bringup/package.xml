@@ -12,8 +12,9 @@
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
   
-  <!--<exec_depend>some_other_package</exec_depend>-->
-
+  <exec_depend>dummy_robot_bringup</exec_depend>
+  <exec_depend>image_tools</exec_depend>
+    
   <export>
     <build_type>ament_cmake</build_type>
   </export>
