@@ -1,0 +1,13 @@
+/cam2image:
+  ros__parameters:
+    device_id: 0
+    frame_id: single_rrbot_camera_link # camera_frame
+    frequency: 30.0
+    width: 320
+    height: 240
+    burger_mode: true
+    show_camera: false
+    depth: 10
+    history: keep_last # keep_all
+    reliability: best_effort # reliable
+
