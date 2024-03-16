@@ -5,7 +5,7 @@ set -e
 PACKAGE=testbot_setup
 PACKAGE_PREFIX_PATH=`ros2 pkg prefix $PACKAGE`
 
-function install_system configuration_files {
+function install_configuration_files {
     ETC=$PACKAGE_PREFIX_PATH/share/$PACKAGE/etc
     sudo cp -a $ETC/. /etc/
 }
